@@ -1,0 +1,233 @@
+{
+  "quiz1": [
+    {
+      "question": "Q1Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      "choix": [
+        "1Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "2Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "3Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "4Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      ],
+      "correct": [
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "question": "Q2Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      "choix": [
+        "1Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "2Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "3Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "4Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      ],
+      "correct": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "question": "Q3Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      "choix": [
+        "1Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "2Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "3Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "4Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      ],
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "question": "Q4Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      "choix": [
+        "1Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "2Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "3Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "4Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      ],
+      "correct": [
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "ReponseQuiz1": [
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 0.75,
+      "status": "invalide",
+      "id": 1
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 2
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 3
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 4
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 0,
+      "status": "invalide",
+      "id": 5
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 0,
+      "status": "invalide",
+      "id": 6
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 7
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 0.25,
+      "status": "invalide",
+      "id": 8
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 9
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 10
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 11
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 12
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 13
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 14
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "score": 1,
+      "status": "valide",
+      "id": 15
+    }
+  ],
+  "QuestionSeriousGame": [
+    {
+      "question": "Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?"
+    }
+  ],
+  "ReponsesSeriousGame": [
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        jytrtyraafgfaga",
+      "id": 1
+    }
+  ],
+  "QuestionTestAdministration": [
+    {
+      "question": "1Lorem ipsum dolor sit amet consectetur adipisicing elit?"
+    },
+    {
+      "question": "2Lorem ipsum dolor sit amet consectetur adipisicing elit?"
+    },
+    {
+      "question": "3Lorem ipsum dolor sit amet consectetur adipisicing elit?"
+    }
+  ],
+  "ReponsesTestAdministration": [
+    {
+      "email": "test@rafikcoding.com",
+      "reponses": [
+        {
+          "question": "1Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+          "reponse": " tre"
+        },
+        {
+          "question": "2Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+          "reponse": "rafik2 "
+        },
+        {
+          "question": "3Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+          "reponse": "rafik3 "
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "QuestionTestMotivation": [
+    {
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?"
+    }
+  ],
+  "ReponsesTestMotivation": [
+    {
+      "email": "test@rafikcoding.com",
+      "reponses": [
+        {
+          "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+          "reponse": " hamiiid"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "QuestionTestTechnique": [
+    {
+      "question": "On a cette fonction javascript qui contient un boucle for, Ecrit le résultat de la fonction.",
+      "code": " function Icrement=()=>{ var x=0; for(let i=0;i<4;i++){ x+=2;  } return x;}   "
+    }
+  ],
+  "ReponseTestTechnique": [
+   
+    {
+      "email": "test@rafikcoding.com",
+      "question": "On a cette fonction javascript qui contient un boucle for, Ecrit le résultat de la fonction.",
+      "code": " function Icrement=()=&gt;{ var x=0; for(let i=0;i&lt;4;i++){ x+=2;  } return x;}   ",
+      "reponse": "14",
+      "id": 3
+    }
+  ]
+}
