@@ -2,6 +2,9 @@ import Candidat from "./classes/Candidat.js";
 
 
 window.addEventListener('DOMContentLoaded', (e) => {
+
+  Candidat.CheckAuthentificationCandidat();
+
     
     Candidat.getQuestionTestTechnique();
 

@@ -105,7 +105,7 @@ export default class Candidat extends User {
 
       Swal.fire({
         title: 'Oops  vous Être  admis pour passer à la deuxiéme test',
-        text: 'Vous Être répondre  sur  '+points*4+"/"+this.allQuises.length +"  de questions",
+        text: 'Vous Être répondre  sur  '+points*this.allQuises.length+"/"+this.allQuises.length +"  de questions",
         position: 'center',
         icon: 'success',
         confirmButtonColor: '#3085d6',
@@ -116,7 +116,6 @@ export default class Candidat extends User {
     }
       })
 
-      window.location.replace('/TestSeriourGame.html');
 
 
 
@@ -124,12 +123,12 @@ export default class Candidat extends User {
     else{
       Swal.fire({
         title: 'Oops  vous Être pas admis pour passer à la deuxiéme test',
-        text: 'Vous Être répondre seulement sur  '+points*4+"/"+this.allQuises.length +"  de questions",
+        text: 'Vous Être répondre seulement sur  '+points*this.allQuises.length+"/"+this.allQuises.length +"  de questions",
         confirmButtonColor: '#3085d6',
         confirmButtonText: 'Ok'
       }).then((result) => {
         if (result.isConfirmed) {
-                // window.location.replace('/PageLogin.html');
+                window.location.replace('/PageLogin.html');
         }
       })
     } 
@@ -200,6 +199,7 @@ export default class Candidat extends User {
           maxlength="500"
         >
         </textarea>
+        <p style="color:red ; font-size:16px" id="regex-expression"></p>
       </div>
         
         `
@@ -234,6 +234,7 @@ export default class Candidat extends User {
         <p>  ${question[0].question}</p>
 
         <textarea id="reponse1" name="" rows="5" cols="30" maxlength="300"> </textarea>
+        <p id="regex-expression" style="color:red"></p>
       </div>
 
    `
@@ -326,20 +327,14 @@ export default class Candidat extends User {
         {      
             question:this.questionTestMotivation,
             reponse:document.getElementById("reponse1").value
-
         }
-
-
       ]
     }
-
-  
   const res =   fetch('http://localhost:5001/ReponsesTestMotivation', {
       method: 'POST', 
       body: JSON.stringify(data),
       headers: { 'Content-Type': 'application/json' }
     })
-  
   }
   static sendTestTechnique=async ()=>{
     
@@ -356,6 +351,36 @@ export default class Candidat extends User {
       body: JSON.stringify(data),
       headers: { 'Content-Type': 'application/json' }
     })
+
+    Swal.fire({
+      title: '  vous Être  Passer les quatres tests',
+      text: "attendre le résultat des tests que vous devez le reçu à votre boite email",
+      position: 'center',
+      icon: 'success',
+      confirmButtonColor: '#3085d6',
+      confirmButtonText: 'Ok'
+    }).then((result) => {
+      if (result.isConfirmed) {
+    window.location.replace('/PageLogin.html');
+  }
+    })
   
+  }
+
+ static CheckAuthentificationCandidat=async ()=>{
+
+    var email = sessionStorage.getItem('username');
+
+    let uri = 'http://localhost:5001/users?email='+email;
+
+    const res = await fetch(uri);
+    const candidat = await res.json();
+    console.log(candidat);
+    if( !candidat.length==1 ||!candidat[0].email===email || candidat[0].state==true){
+
+            window.location.replace('/PageLogin.html');
+    }
+
+
   }
 }

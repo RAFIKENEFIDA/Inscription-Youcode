@@ -1,4 +1,20 @@
 {
+
+
+  "users": [
+
+    {
+      "firstName": "HICHAM",
+      "lastName": "zenlklnz",
+      "email": "zlnlk@gmail.com",
+      "cne": "HH172084",
+      "age": "23",
+      "campus": "yousoufia",
+      "password": "cjvqyneodaczlnlk",
+      "state": true,
+      "id": 11
+    }
+  ],
   "quiz1": [
     {
       "question": "Q1Lorem ipsum dolor sit amet consectetur adipisicing elit?",
@@ -59,98 +75,29 @@
         1,
         0
       ]
+    },
+    {
+      "question": "Q5Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+      "choix": [
+        "1Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "2Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "3Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "4Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      ],
+      "correct": [
+        1,
+        0,
+        0,
+        0
+      ]
     }
   ],
   "ReponseQuiz1": [
     {
       "email": "rafik.coding@gmail.com",
-      "score": 0.75,
-      "status": "invalide",
+      "score": 1,
+      "status": "valide",
       "id": 1
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 2
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 3
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 4
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 0,
-      "status": "invalide",
-      "id": 5
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 0,
-      "status": "invalide",
-      "id": 6
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 7
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 0.25,
-      "status": "invalide",
-      "id": 8
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 9
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 10
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 11
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 12
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 13
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 14
-    },
-    {
-      "email": "rafik.coding@gmail.com",
-      "score": 1,
-      "status": "valide",
-      "id": 15
     }
   ],
   "QuestionSeriousGame": [
@@ -162,8 +109,92 @@
     {
       "email": "rafik.coding@gmail.com",
       "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
-      "reponse": "        jytrtyraafgfaga",
+      "reponse": "        ",
       "id": 1
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 2
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 3
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 4
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 5
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 6
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 7
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 8
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 9
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 10
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 11
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        jhj",
+      "id": 12
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 13
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 14
+    },
+    {
+      "email": "rafik.coding@gmail.com",
+      "question": "\n    Vous Être un professionnel du marketting d'une société IT, vous avez un prouduit à commercialiser, créer une présentation sur le procedure de cette commercialisation ?\n      ",
+      "reponse": "        ",
+      "id": 15
     }
   ],
   "QuestionTestAdministration": [
@@ -177,26 +208,7 @@
       "question": "3Lorem ipsum dolor sit amet consectetur adipisicing elit?"
     }
   ],
-  "ReponsesTestAdministration": [
-    {
-      "email": "test@rafikcoding.com",
-      "reponses": [
-        {
-          "question": "1Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-          "reponse": " tre"
-        },
-        {
-          "question": "2Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-          "reponse": "rafik2 "
-        },
-        {
-          "question": "3Lorem ipsum dolor sit amet consectetur adipisicing elit?",
-          "reponse": "rafik3 "
-        }
-      ],
-      "id": 1
-    }
-  ],
+  "ReponsesTestAdministration": [],
   "QuestionTestMotivation": [
     {
       "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?"
@@ -212,6 +224,16 @@
         }
       ],
       "id": 1
+    },
+    {
+      "email": "test@rafikcoding.com",
+      "reponses": [
+        {
+          "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+          "reponse": " ytrerrtyuio"
+        }
+      ],
+      "id": 2
     }
   ],
   "QuestionTestTechnique": [
@@ -221,13 +243,26 @@
     }
   ],
   "ReponseTestTechnique": [
-   
     {
       "email": "test@rafikcoding.com",
       "question": "On a cette fonction javascript qui contient un boucle for, Ecrit le résultat de la fonction.",
       "code": " function Icrement=()=&gt;{ var x=0; for(let i=0;i&lt;4;i++){ x+=2;  } return x;}   ",
       "reponse": "14",
       "id": 3
+    },
+    {
+      "email": "test@rafikcoding.com",
+      "question": "On a cette fonction javascript qui contient un boucle for, Ecrit le résultat de la fonction.",
+      "code": " function Icrement=()=&gt;{ var x=0; for(let i=0;i&lt;4;i++){ x+=2;  } return x;}   ",
+      "reponse": "22",
+      "id": 4
+    },
+    {
+      "email": "test@rafikcoding.com",
+      "question": "On a cette fonction javascript qui contient un boucle for, Ecrit le résultat de la fonction.",
+      "code": " function Icrement=()=&gt;{ var x=0; for(let i=0;i&lt;4;i++){ x+=2;  } return x;}   ",
+      "reponse": "12",
+      "id": 5
     }
   ]
 }
