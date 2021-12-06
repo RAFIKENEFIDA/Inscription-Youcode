@@ -1,13 +1,12 @@
- export default class User {
+export default class User {
+    constructor(firstName, lastName, email, cne, age, campus){
+        this.firstName = firstName
+        this.lastName = lastName
+        this.email = email
+        this.cne = cne
+        this.age = age
+        this.campus = campus
+    }
 
-     constructor(name, age, email, tele, cne) {
-
-         this.name = name;
-         this.age = age;
-         this.email = email;
-         this.tele = tele;
-         this.cne = cne;
-     }
-
-
- }
+    
+}

@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
       Candidat.sendTestAdministration();
         window.location.replace('/TestDeMotivation.html');
-
+        
         
         })
   
